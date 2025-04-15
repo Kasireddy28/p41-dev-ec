@@ -33,8 +33,8 @@ SimpleTimeService is a minimalist REST API service built with Flask that returns
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Kasireddy28/p41-dev.git
-   cd p41-dev
+   git clone https://github.com/Kasireddy28/p41-dev-ec.git
+   cd p41-dev-ec
    ```
 
 2. Install Python dependencies:
@@ -48,12 +48,12 @@ SimpleTimeService is a minimalist REST API service built with Flask that returns
 1. Build the Docker image:
    ```bash
    cd app
-   docker build -t timeservice .
+   docker build -t simpletimeservice .
    ```
 
 2. Run the container:
    ```bash
-   docker run -d -p 8080:8080 timeservice
+   docker run -d -p 8080:8080 simpletimeservice
    ```
 
 ## Usage
@@ -67,7 +67,7 @@ python app/app.py
 
 #### Docker Container
 ```bash
-docker run -d -p 8080:8080 timeservice
+docker run -d -p 8080:8080 simpletimeservice
 ```
 
 ### Available Endpoints
@@ -134,10 +134,6 @@ curl http://localhost:8080/
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Security
 
